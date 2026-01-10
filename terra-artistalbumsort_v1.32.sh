@@ -35,7 +35,7 @@ DUP_DIR="$BASE_DIR/DUPLICATES"                 # Here you will find in your arch
 LOG_FILE="/glftpd/ftp-data/logs/storttoarchive-test.log" 
 EXCLUDE_PATHS=("/PRE" "/GROUPS") 
 SANDBOX_MODE=true                              # true = do not move (only log simulation) | false = it will created and move stuff
-VA_DIR_NAME="VA"                               # Optional setting to have Various Artitst in "/VA" or "/VariousArtiest" instead of "/V"
+VA_DIR_NAME="VA"                               # Optional setting to have Various Artitst in "/VA" or "/VariousArtiest" instead of "/V/VA"
 NUMERIC_TO_FOLDER="0-9"                        # Optional to have numeric albums 1 directory "/0-9" | leave empty to disable numeric-artist folder
 RECURSIVE_UNSORTED=false                       # false = scan only one directory | true = scan all subdirectories under UNSORTED_DIR
 
