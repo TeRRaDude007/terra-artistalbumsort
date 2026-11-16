@@ -14,3 +14,13 @@ Sandbox Mode:
 If enabled, the script only logs preview moves without actually moving files.
 Logs all actions in MUSICSORTARCH.log including preview moves.
 Recursive Scanning (Optional): Can scan all subdirectories under the unsorted directory, allowing organization of releases stored in dated or subcategory folders.
+
+Addon:
+- Case-insensitive artist matching.
+- Treat dots, spaces and underscores as equivalent.
+- Reuse an existing artist directory with its original spelling.
+- Create missing artist directories using canonical title-case names.
+- Handle _-_, normal hyphens, three-digit artist prefixes, _And_, and existing artist prefixes.
+- Rename duplicate album directories rather than skipping or overwriting them.
+- Keep category scopes separate.
+- Use SANDBOX_MODE for testing.
